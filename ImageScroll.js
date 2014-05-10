@@ -1,6 +1,6 @@
 // Author: Jogis
-// Website: http://stephenkorecky.com
-// Plugin Website: http://github.com/skorecky/Add-Clear
+// Website: http://imagescroll.qiniudn.com/test1.html
+// Plugin Website: https://github.com/yesvods/jquery-ImageScroll
 (function($){
   $.fn.imageScroll = function(opts){
     var defaults = {
