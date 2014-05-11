@@ -15,22 +15,28 @@
     function scroll() {
       var $firstLi = $(_this).children().first();
       var $lastLi = $(_this).children().last();
+      var liOuterWidth = $firstLi.outerWidth(true);
+      //In case that parent take a center text-algin layout
+      if($(_this).parent().css("text-align").toLowerCase()=="center"){
+        liOuterWidth*=2;
+      }
+      console.log();
       switch(options.orientation){
         case "left":
         case "top":
           $firstLi.animate({       
-            "margin-left":"-"+$firstLi.outerWidth()+"px"
+            "margin-left":"-="+liOuterWidth+"px"
           },options.speed,function(){
-            $firstLi.css("margin-left","0px");
+            $firstLi.css("margin-left","+="+liOuterWidth+"px");
             $lastLi.after($firstLi);              
           });
           break;
         case "right":
         case "bottom":
           $firstLi.animate({       
-            "margin-left":$firstLi.outerWidth()+"px"
+            "margin-left":"+="+liOuterWidth+"px"
           },options.speed,function(){
-            $firstLi.css("margin-left","0px");
+            $firstLi.css("margin-left","-="+liOuterWidth+"px");
             $firstLi.before($lastLi);
           });
           break;
