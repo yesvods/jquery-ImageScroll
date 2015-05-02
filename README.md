@@ -2,7 +2,9 @@
 
 > A Simple JQuery plugin for `li` included in `ul` to scroll
 
-##Install
+#### View [**demo**](http://codepen.io/zenjayjay/pen/vOOzBP)
+
+## Install
 Just include the plugin after the JQuery js file:
 ```html
 <script src="./jquery.js"></script>
@@ -12,6 +14,7 @@ Just include the plugin after the JQuery js file:
 ## Usage
 Such as this HTML:
 ```html
+
 <ul id="imgs">
     <li>1
     </li><li>2
@@ -69,7 +72,7 @@ $('#imgs').imageScroll({
 
 If you contribute code to this project, you are implicitly allowing your code
 to be distributed under the MIT license. You are also implicitly verifying that
-all code is your original work. 
+all code is your original work.
 
 ## License
 

@@ -1,0 +1,24 @@
+{
+  "name": "jquery-ImageScroll",
+  "version": "0.0.0",
+  "homepage": "https://github.com/yesvods/jquery-ImageScroll",
+  "authors": [
+    "jogis <zenjayjay@gmail.com>"
+  ],
+  "description": "A Simple JQuery plugin for li included in ul to scroll",
+  "main": "ImageScroll.js",
+  "moduleType": [
+    "globals"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4"
+  }
+}
