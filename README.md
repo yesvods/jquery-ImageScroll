@@ -5,10 +5,18 @@
 #### View [**demo**](http://codepen.io/zenjayjay/pen/vOOzBP)
 
 ## Install
+
+### linked with script tag
 Just include the plugin after the JQuery js file:
 ```html
 <script src="./jquery.js"></script>
 <script src="./ImageScroll.js"></script>
+```
+
+### Install with bower
+
+```command
+bower install --save ImageScroll
 ```
 
 ## Usage
