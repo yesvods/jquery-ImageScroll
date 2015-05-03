@@ -6,7 +6,7 @@
     "jogis <zenjayjay@gmail.com>"
   ],
   "description": "A Simple JQuery plugin for li included in ul to scroll",
-  "main": "ImageScroll.js",
+  "main": "lib/ImageScroll.js",
   "moduleType": [
     "globals"
   ],
